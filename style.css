@@ -46,6 +46,7 @@ nav li {
     padding: 10px 30px;
     position: relative;
     margin-left: 20px;
+    transition: 0.3s;
 }
 
 /* Fancy design for the menu items */
