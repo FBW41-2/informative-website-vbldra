@@ -6,7 +6,8 @@
 .container {
     padding-top: 100px;
     padding-bottom: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 60%;
 }
 
 h1 {
@@ -46,6 +47,7 @@ nav li {
     padding: 10px 30px;
     position: relative;
     margin-left: 20px;
+    transition: 0.3s;
 }
 
 /* Fancy design for the menu items */
@@ -70,7 +72,6 @@ nav li:hover {
 
 main {
     font-family: 'Arapey', serif;
-    flex-basis: 60%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .3);
     padding: 20px 40px;
     z-index: 1;
