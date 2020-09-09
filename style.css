@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-body {
+.container {
     padding-top: 100px;
+    padding-bottom: 20px;
+    display: flex;
 }
 
 ul {
@@ -12,7 +14,11 @@ ul {
 }
 
 h1 {
-
+    text-align: right;
+    margin-bottom: 100px;
+    letter-spacing: -1px;
+    font-size: 2.5em;
+    text-shadow: 0 -1px black;
 }
 
 h2 {
@@ -22,12 +28,9 @@ h2 {
 h3 {
     text-decoration: underline;
     font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
-.container {
-    display: flex;
-    
-}
 nav {
     font-family: 'Lato', sans-serif;
     flex-grow: 1;
@@ -38,9 +41,26 @@ nav .sticky {
     margin: 50px;
     top: 50px;
 }
+nav li {
+    font-size: 1em;
+    padding: 10px 50px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+nav li:hover {
+    background-color: cornflowerblue;
+}
+
 main {
     font-family: 'Arapey', serif;
     flex-basis: 60%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .1);
     padding: 20px 40px;
+}
+p {
+    font-size: 1em;
+    line-height: 1.5;
 }
