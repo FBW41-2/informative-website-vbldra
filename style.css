@@ -47,19 +47,7 @@ nav li {
     position: relative;
     margin-left: 20px;
     transition: 0.3s;
-}
-
-/* Fancy design for the menu items */
-nav li:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 20px solid white;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    clip-path: polygon(100% 0, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
 }
 nav a {
     text-decoration: none;
